@@ -9,6 +9,7 @@ class PayrollApplicationTests {
 
 	@Test
 	void contextLoads() {
+		System.out.println("Test context loaded!");
 	}
 
 }
