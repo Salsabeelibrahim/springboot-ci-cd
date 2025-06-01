@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-PayrollApplication<payroll>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.example.payroll.PayrollApplication",
+            "projectName": "payroll",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
