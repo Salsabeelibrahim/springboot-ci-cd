@@ -10,7 +10,11 @@ class PayrollApplicationTests {
 
 	@Test
 	void contextLoads() {
-		System.out.println("Test context loaded!");
-	}
-
+		try {
+            System.out.println("Trying to load context...");
+        } catch (Exception e) {
+            e.printStackTrace();
+            throw e;
+        }
+    }
 }
